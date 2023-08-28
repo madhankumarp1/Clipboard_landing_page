@@ -82,6 +82,10 @@ img.page2 {
     text-align: center;
     flex-wrap: wrap;
 }
+.img3 {
+    width: 80%;
+    height: 80%;
+  }
 
 
 .page4 {
@@ -104,7 +108,8 @@ img.page2 {
     display: flex;
     justify-content: center;
     gap: 50px;
-}
+    flex-wrap: wrap;
+  }
 
 .page6 {
     text-align: center;
@@ -135,7 +140,7 @@ img.page2 {
     font-size: larger;
 }
 
-footer {
+/* footer {
     text-align: center;
     padding: 52px 10px;
     background-color: whitesmoke;
@@ -162,7 +167,7 @@ li {
 li.o {
     position: relative;
     bottom: -50px;
-    left: -442px;
+    left: -84px;
     text-decoration: none;
     list-style: none;
 }
@@ -171,12 +176,39 @@ i.fa-regular.fa-copyright.fa-xl {
     position: relative;
     left: -130px;
     bottom: -23px;
-}
+} */
 
 img.page2 {
-    width: 500px;
-    height: 500px;
+    width: 80%;
+    height: 80%;
+    /* margin: auto; */
+  }
+/* .img1 {
+    width: 100%;
+    height: 100%;
+  } */
+
+/* ----foodter----- */
+
+.footer{
+    display:flex ;
+    margin: auto;
+    background-color: rgb(209, 218, 226);
 }
+img.logo {
+    margin: auto;
+}
+
+
+.low {
+  margin: auto;
+}
+.total-icon {
+    margin: auto;
+  }
+
+
+
 
 
 @media only screen and (max-width: 600px) {
@@ -207,11 +239,10 @@ img.page2 {
     }
 
     img.page2 {
-        width: 300px;
-        height: 300px;
-        margin: auto;
-    }
-
+        width: 80%;
+        height: 80%;
+        /* margin: auto; */
+      }
     .page2image {
         position: relative;
         left: auto;
@@ -269,7 +300,7 @@ img.page2 {
         height: 100%;
     }
 
-    footer {
+    /* footer {
         text-align: center;
         margin: auto;
         padding: 52px 10px;
@@ -305,25 +336,52 @@ img.page2 {
         position: relative;
         left: auto;
         bottom: auto;
+    } */
+    /* -------------------------- */
+
+    .footer{
+        display:grid ;
+    margin: auto;
+        background-color: rgb(209, 218, 226);
     }
+    img.logo {
+        margin: auto;
+    }
+    
+    
+    .low {
+      margin: auto;
+    }
+    .total-icon {
+        margin: auto;
+      }
 }
 
 /* font style */
 h1.page1 {
     font-family: 'Bai Jamjuree', sans-serif;
+    color: black;
 }
 
 p.page1 {
     font-family: 'Bai Jamjuree', sans-serif;
-}
+    color: gray;
+  }
 
 h1 {
     font-family: 'Bai Jamjuree', sans-serif;
+    color: black;
 }
 
 p {
     font-family: 'Bai Jamjuree', sans-serif;
+    color: gray;
 }
+h3 {
+        color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
 
 .page2content {
     font-family: 'Bai Jamjuree', sans-serif;
@@ -343,16 +401,31 @@ p.page4 {
 
 h1.box1 {
     font-family: 'Bai Jamjuree', sans-serif;
-}
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+    border: none;
+  }
 
 p.box2 {
     font-family: 'Bai Jamjuree', sans-serif;
-}
-
-h1.page6 {
+    font-size: medium;
+    color: gray;
+  }
+  .con2 {
+    font-size: medium;
     font-family: 'Bai Jamjuree', sans-serif;
-}
+    color: gray;
+  }
 
-p.page6 {
+  h1.page6 {
     font-family: 'Bai Jamjuree', sans-serif;
-}
+    font-size: x-large;
+    color: black;
+  }
+
+  p.page6 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: gray;
+    font-size: medium;
+  }
